@@ -47,6 +47,8 @@
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
+    transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
   }
 
   .visually-hidden {
@@ -342,15 +344,6 @@
         transition: var(–-transition-duration) var(--transition-cubic-bezier);
     }
 
-    .button:hover {
-        transition-duration: var(--transition-duration);
-        transition-property: color, background-color;
-        color: var(--button-hover-color);
-        text-decoration: var(--button-hover-text-decoration);
-        background: var(--button-hover-background);
-        transition-duration: var(--transition-duration);
-        
-    }
   :root {
     --color-primary: #D73953;
     --color-black: #090909;
